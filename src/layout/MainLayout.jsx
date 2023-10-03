@@ -10,6 +10,7 @@ export const MainLayout = () => {
             <Header />
             <Navigation />
             <Outlet />
+          
             <Footer />
         </>
     )
