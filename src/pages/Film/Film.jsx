@@ -49,7 +49,6 @@ export function Film() {
     }
 
     if (Allfilms.isLoading) return (<div> <p>Loading</p> </div >)
-
     return (
         <section>
             <p>Her er FILMSIDEN!</p>
@@ -63,12 +62,9 @@ export function Film() {
             </div>
             <Modal isOpen={modalIsOpen} style={customStyles}>
                 <p>HER ER MODALEN{Allfilms.data?.allFilms.films.id}</p>
-
                 <p>{OneFilm?.data?.film?.id}</p>
                 <p>{OneFilm?.data?.film?.producers}</p>
                 <p>{OneFilm?.data?.film?.title}</p>
-            
-
                 <button onClick={closeModal}>Luk</button>
             </Modal>
         </section>
