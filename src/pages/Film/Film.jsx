@@ -3,7 +3,7 @@ import { useState } from "react";
 import { request } from 'graphql-request'
 import { getAllFilms } from "../../queries/getAllFilm";
 
-export function Film()  {
+export function Film() {
     const [isModelOpen, setModelOpen] = useState(false)
     const { data, isLoading, error } = useQuery({
         queryKey: ['getStarWarsFilms'],
