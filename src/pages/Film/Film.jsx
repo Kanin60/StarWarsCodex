@@ -8,6 +8,7 @@ import Modal from 'react-modal';
 
 export function Film() {
     const Allfilms = useQuery({
+
         queryKey: ['getStarWarsFilms'],
         queryFn: async () => request(`https://swapi-graphql.netlify.app/.netlify/functions/index`
             , getAllFilms)
