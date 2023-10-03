@@ -1,0 +1,21 @@
+.nav{
+    margin: 0;
+    padding: 10px;
+    background-color: #09161E;
+    ul{
+        max-width: 1200px;
+        margin: auto;
+        a{
+            margin-right: 2rem;
+            font-size: 18px;
+            font-weight: 300;
+            color: #adacac;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        a:hover{
+            color: #fff;
+        }
+
+    }
+}

@@ -3,8 +3,10 @@ export const Header = () => {
 
     return (
         <header className={style.Header}>
-            <h1>Star Wars Codex</h1>
-            <h2>Find alt om filmene og karakterene</h2>
+            <hgroup>
+                <h1>Star<br />Wars</h1>
+                <h1><span>Codex</span></h1>
+            </hgroup>
         </header>
     )
 }
