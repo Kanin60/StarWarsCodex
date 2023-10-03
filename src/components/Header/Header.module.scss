@@ -1,4 +1,28 @@
+@import url(../../globalStyling.scss);
 .Header{
-    border: 1px solid red;
+    background-color: #09161E;
     width: 100%;
+    padding: 20px 0;
+    hgroup{
+        width: 40%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        align-items: center;
+        h1{
+            display: inline;
+            color: #f4f4f4;
+            line-height:55px;
+            font-weight: 700;
+            font-size: 4em;
+            span{
+                line-height:80px;
+                font-size: 8rem;
+                color: #09161E;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: #f4f4f4;
+            }
+        }
+    }
 }
